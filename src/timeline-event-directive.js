@@ -16,6 +16,6 @@ angular.module('angular-timeline').directive('timelineEvent', function() {
     require: '^timeline',
     restrict: 'AE',
     transclude: true,
-    template: '<li ng-class-even="\'timeline-inverted\'" ng-transclude></li>'
+    template: '<li ng-transclude></li>'
   };
 });
